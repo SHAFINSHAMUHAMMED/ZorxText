@@ -38,7 +38,6 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:19.2.6"],\
           ["tailwind-merge", "npm:3.4.0"],\
           ["tailwindcss", "npm:4.1.17"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5adc0c"],\
           ["vite", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:7.3.2"],\
           ["vite-plugin-singlefile", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:2.3.0"]\
         ],\
@@ -1924,7 +1923,6 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:19.2.6"],\
           ["tailwind-merge", "npm:3.4.0"],\
           ["tailwindcss", "npm:4.1.17"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5adc0c"],\
           ["vite", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:7.3.2"],\
           ["vite-plugin-singlefile", "virtual:4ba09e3dbe0121bde45242140751ae20281d5ab7364e0a72363e6b8563f93df8365d02639147b620ec3131e977d095d86255de4ea71247199fa1b4f1796c7ed0#npm:2.3.0"]\
         ],\
@@ -2069,15 +2067,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/tslib-npm-2.8.1-66590b21b8-10c0.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["typescript", [\
-      ["patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5adc0c", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/typescript-patch-07973c1be0-10c0.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5adc0c"]\
         ],\
         "linkType": "HARD"\
       }]\

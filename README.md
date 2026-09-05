@@ -110,7 +110,6 @@ Includes:
 - **Lucide React**
 - **clsx**
 - **tailwind-merge**
-- **Yarn**
 
 ## 📁 Project Structure
 
@@ -160,13 +159,11 @@ zorxAnimation-website/
 Make sure you have installed:
 
 * Node.js 20+
-* Yarn
 
 Check your versions:
 
 ```bash
 node -v
-yarn -v
 ```
 
 ### Installation
@@ -186,13 +183,13 @@ cd zorxAnimation-website
 Install dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 ### Run Development Server
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 The application will be available at:
@@ -204,13 +201,13 @@ http://localhost:5173
 ### Build for Production
 
 ```bash
-yarn build
+npm run build
 ```
 
 ### Preview Production Build
 
 ```bash
-yarn preview
+npm preview
 ```
 
 ---
@@ -324,7 +321,7 @@ The project can be deployed using platforms such as:
 Build command:
 
 ```bash
-yarn build
+npm run build
 ```
 
 Output directory:

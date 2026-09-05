@@ -7,7 +7,7 @@ import {
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "../utils/cn";
-
+import logo from "/images/logo-green2.png";
 const links = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
@@ -58,9 +58,7 @@ export function Navbar() {
             }}
             className="group flex items-center gap-2"
           >
-            <span className="font-display text-2xl font-bold tracking-tight text-white transition-colors group-hover:text-zorx-green sm:text-3xl">
-              ZOR<span className="text-zorx-green">X</span>
-            </span>
+            <img src={logo} alt="ZORX" className="h-8 w-auto object-contain sm:h-10" />
           </a>
 
           <nav className="hidden items-center gap-1 md:flex">

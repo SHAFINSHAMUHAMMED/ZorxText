@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, ArrowUp } from "lucide-react";
 import { ScrollReveal } from "../ScrollReveal";
-
+import logo from "/images/logo-white2.png";
 function InstagramIcon({ size = 16 }) {
   return (
     <svg
@@ -138,7 +138,7 @@ export function Footer() {
               }}
               className="font-display text-3xl font-bold tracking-tight text-white"
             >
-              ZOR<span className="text-zorx-green">X</span>
+              <img src={logo} alt="ZORX" className="h-8 w-auto object-contain sm:h-10" />
             </a>
 
             <p className="mt-2 text-sm tracking-wider text-zorx-green uppercase">
